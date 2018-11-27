@@ -1,0 +1,7 @@
+[submodule "extern/googletest"]
+	path = extern/googletest
+	url = git@github.com:google/googletest.git
+	branch = v1.8.x
+[submodule "extern/yaml-cpp"]
+	path = extern/yaml-cpp
+	url = git@github.com:jbeder/yaml-cpp.git

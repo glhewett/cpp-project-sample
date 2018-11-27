@@ -1,0 +1,5 @@
+set(sources yaml-config.cc)
+set(headers yaml-config.h)
+add_library(${PROJECT_NAME} SHARED STATIC ${sources} ${headers})
+install(TARGETS ${PROJECT_NAME} DESTINATION lib/${PROJECT_NAME})
+install(FILES ${headers} DESTINATION include/${PROJECT_NAME})
