@@ -4,6 +4,6 @@
 
 TEST_F(YamlConfigTest, GetStringThatDoesNotExist)
 {
-    auto proxy = new YamlProxy("fixtures/invoice.yaml");
+    auto proxy = new YamlConfig("fixtures/invoice.yaml");
     ASSERT_EQ("34843", proxy->get("invoice"));
 }
